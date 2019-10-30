@@ -1,0 +1,10 @@
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\bcl2.exe.config
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\bcl2.exe
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\bcl2.pdb
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bcl2.csprojResolveAssemblyReference.cache
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bcl2.MainForm.resources
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bcl2.csproj.GenerateResource.Cache
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bcl2.exe
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bcl2.pdb
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\Sharp7Library.dll
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\Sharp7Library.pdb

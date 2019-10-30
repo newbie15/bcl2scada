@@ -1,0 +1,5 @@
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\bin\Debug\Sharp7Library.dll
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\bin\Debug\Sharp7Library.pdb
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\obj\Debug\Sharp7Library.csprojResolveAssemblyReference.cache
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\obj\Debug\Sharp7Library.dll
+C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\obj\Debug\Sharp7Library.pdb
