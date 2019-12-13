@@ -113,6 +113,7 @@ namespace bcl2
 //			t1.Start();
 			cek();
 			hitung_total_rate();
+			hitung_total_flow();
 		}
 		
 		void execute_python(int no)
@@ -256,6 +257,7 @@ namespace bcl2
 			string[] data5 = datas[4].Trim(' ').Split(' ');
 			string[] data6 = datas[5].Trim(' ').Split(' ');
 			string[] data7 = datas[6].Trim(' ').Split(' ');
+			string[] parameter = datas[7].Trim(' ').Split(' ');
 			
 			weight1.Text = data1[0];
 			ratio1.Text = data1[1];
@@ -304,7 +306,10 @@ namespace bcl2
 			sf7.Text = data7[2];
 			af7.Text = data7[3];
 			bs7.Text = data7[4];
-			f7.Text = data7[5];				
+			f7.Text = data7[5];	
+
+			shift_capacity.Text = parameter[0];
+			//actual_flow.Text = parameter[1];
 	            
 		}
 		
@@ -335,6 +340,13 @@ namespace bcl2
 			                                                                                                                                                                                
 			total_ratio.Text = total.ToString();
 		}
+		
+		void hitung_total_flow(){
+			double total = Convert.ToDouble(af1.Text) + Convert.ToDouble(af2.Text) + Convert.ToDouble(af3.Text) + Convert.ToDouble(af4.Text) + Convert.ToDouble(af5.Text) + Convert.ToDouble(af6.Text) + Convert.ToDouble(af7.Text);
+			total = ( total * 60 )/1000;
+			actual_flow.Text = total.ToString("#.##");
+		}
+		
 		
 		void set(string command,string number,string value)
 		{

@@ -218,6 +218,7 @@ namespace bcl2
 			this.Controls.Add(this.label1);
 			this.Name = "parameter";
 			this.Text = "parameter";
+			this.Load += new System.EventHandler(this.ParameterLoad);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
