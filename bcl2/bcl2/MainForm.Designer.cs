@@ -134,6 +134,13 @@ namespace bcl2
 		private System.Windows.Forms.Label f7;
 		private System.Windows.Forms.Timer timer1;
 		private System.Windows.Forms.Button button1;
+		private System.Windows.Forms.CheckBox alarm1;
+		private System.Windows.Forms.CheckBox alarm2;
+		private System.Windows.Forms.CheckBox alarm3;
+		private System.Windows.Forms.CheckBox alarm4;
+		private System.Windows.Forms.CheckBox alarm5;
+		private System.Windows.Forms.CheckBox alarm6;
+		private System.Windows.Forms.CheckBox alarm7;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -158,6 +165,7 @@ namespace bcl2
 		{
 			this.components = new System.ComponentModel.Container();
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
+			this.alarm1 = new System.Windows.Forms.CheckBox();
 			this.f1 = new System.Windows.Forms.Label();
 			this.ratio1 = new System.Windows.Forms.Label();
 			this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -170,6 +178,7 @@ namespace bcl2
 			this.label2 = new System.Windows.Forms.Label();
 			this.label1 = new System.Windows.Forms.Label();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
+			this.alarm2 = new System.Windows.Forms.CheckBox();
 			this.f2 = new System.Windows.Forms.Label();
 			this.ratio2 = new System.Windows.Forms.Label();
 			this.checkBox2 = new System.Windows.Forms.CheckBox();
@@ -182,6 +191,7 @@ namespace bcl2
 			this.label15 = new System.Windows.Forms.Label();
 			this.label16 = new System.Windows.Forms.Label();
 			this.groupBox3 = new System.Windows.Forms.GroupBox();
+			this.alarm3 = new System.Windows.Forms.CheckBox();
 			this.f3 = new System.Windows.Forms.Label();
 			this.ratio3 = new System.Windows.Forms.Label();
 			this.checkBox3 = new System.Windows.Forms.CheckBox();
@@ -194,6 +204,7 @@ namespace bcl2
 			this.label23 = new System.Windows.Forms.Label();
 			this.label24 = new System.Windows.Forms.Label();
 			this.groupBox4 = new System.Windows.Forms.GroupBox();
+			this.alarm4 = new System.Windows.Forms.CheckBox();
 			this.f4 = new System.Windows.Forms.Label();
 			this.ratio4 = new System.Windows.Forms.Label();
 			this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -206,6 +217,7 @@ namespace bcl2
 			this.label31 = new System.Windows.Forms.Label();
 			this.label32 = new System.Windows.Forms.Label();
 			this.groupBox5 = new System.Windows.Forms.GroupBox();
+			this.alarm5 = new System.Windows.Forms.CheckBox();
 			this.f5 = new System.Windows.Forms.Label();
 			this.ratio5 = new System.Windows.Forms.Label();
 			this.checkBox5 = new System.Windows.Forms.CheckBox();
@@ -218,6 +230,7 @@ namespace bcl2
 			this.label39 = new System.Windows.Forms.Label();
 			this.label40 = new System.Windows.Forms.Label();
 			this.groupBox6 = new System.Windows.Forms.GroupBox();
+			this.alarm6 = new System.Windows.Forms.CheckBox();
 			this.f6 = new System.Windows.Forms.Label();
 			this.ratio6 = new System.Windows.Forms.Label();
 			this.checkBox6 = new System.Windows.Forms.CheckBox();
@@ -230,6 +243,7 @@ namespace bcl2
 			this.label47 = new System.Windows.Forms.Label();
 			this.label48 = new System.Windows.Forms.Label();
 			this.groupBox7 = new System.Windows.Forms.GroupBox();
+			this.alarm7 = new System.Windows.Forms.CheckBox();
 			this.f7 = new System.Windows.Forms.Label();
 			this.ratio7 = new System.Windows.Forms.Label();
 			this.checkBox7 = new System.Windows.Forms.CheckBox();
@@ -295,6 +309,7 @@ namespace bcl2
 			// 
 			// groupBox1
 			// 
+			this.groupBox1.Controls.Add(this.alarm1);
 			this.groupBox1.Controls.Add(this.f1);
 			this.groupBox1.Controls.Add(this.ratio1);
 			this.groupBox1.Controls.Add(this.checkBox1);
@@ -309,10 +324,24 @@ namespace bcl2
 			this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox1.Location = new System.Drawing.Point(12, 176);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(207, 266);
+			this.groupBox1.Size = new System.Drawing.Size(207, 301);
 			this.groupBox1.TabIndex = 8;
 			this.groupBox1.TabStop = false;
-			this.groupBox1.Text = "Weigher 1";
+			this.groupBox1.Text = "Weigher 1 - MAP";
+			this.groupBox1.Enter += new System.EventHandler(this.GroupBox1Enter);
+			// 
+			// alarm1
+			// 
+			this.alarm1.Checked = true;
+			this.alarm1.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm1.Location = new System.Drawing.Point(138, 23);
+			this.alarm1.Name = "alarm1";
+			this.alarm1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm1.Size = new System.Drawing.Size(63, 24);
+			this.alarm1.TabIndex = 14;
+			this.alarm1.Text = "alarm";
+			this.alarm1.UseVisualStyleBackColor = true;
 			// 
 			// f1
 			// 
@@ -412,6 +441,7 @@ namespace bcl2
 			// 
 			// groupBox2
 			// 
+			this.groupBox2.Controls.Add(this.alarm2);
 			this.groupBox2.Controls.Add(this.f2);
 			this.groupBox2.Controls.Add(this.ratio2);
 			this.groupBox2.Controls.Add(this.checkBox2);
@@ -426,10 +456,23 @@ namespace bcl2
 			this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox2.Location = new System.Drawing.Point(234, 176);
 			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(207, 266);
+			this.groupBox2.Size = new System.Drawing.Size(207, 301);
 			this.groupBox2.TabIndex = 12;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "Weigher 2";
+			// 
+			// alarm2
+			// 
+			this.alarm2.Checked = true;
+			this.alarm2.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm2.Location = new System.Drawing.Point(138, 23);
+			this.alarm2.Name = "alarm2";
+			this.alarm2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm2.Size = new System.Drawing.Size(63, 24);
+			this.alarm2.TabIndex = 15;
+			this.alarm2.Text = "alarm";
+			this.alarm2.UseVisualStyleBackColor = true;
 			// 
 			// f2
 			// 
@@ -529,6 +572,7 @@ namespace bcl2
 			// 
 			// groupBox3
 			// 
+			this.groupBox3.Controls.Add(this.alarm3);
 			this.groupBox3.Controls.Add(this.f3);
 			this.groupBox3.Controls.Add(this.ratio3);
 			this.groupBox3.Controls.Add(this.checkBox3);
@@ -543,10 +587,23 @@ namespace bcl2
 			this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox3.Location = new System.Drawing.Point(447, 176);
 			this.groupBox3.Name = "groupBox3";
-			this.groupBox3.Size = new System.Drawing.Size(207, 266);
+			this.groupBox3.Size = new System.Drawing.Size(207, 301);
 			this.groupBox3.TabIndex = 12;
 			this.groupBox3.TabStop = false;
-			this.groupBox3.Text = "Weigher 3";
+			this.groupBox3.Text = "Weigher 3 - RP";
+			// 
+			// alarm3
+			// 
+			this.alarm3.Checked = true;
+			this.alarm3.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm3.Location = new System.Drawing.Point(138, 23);
+			this.alarm3.Name = "alarm3";
+			this.alarm3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm3.Size = new System.Drawing.Size(63, 24);
+			this.alarm3.TabIndex = 15;
+			this.alarm3.Text = "alarm";
+			this.alarm3.UseVisualStyleBackColor = true;
 			// 
 			// f3
 			// 
@@ -646,6 +703,7 @@ namespace bcl2
 			// 
 			// groupBox4
 			// 
+			this.groupBox4.Controls.Add(this.alarm4);
 			this.groupBox4.Controls.Add(this.f4);
 			this.groupBox4.Controls.Add(this.ratio4);
 			this.groupBox4.Controls.Add(this.checkBox4);
@@ -660,10 +718,23 @@ namespace bcl2
 			this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox4.Location = new System.Drawing.Point(660, 176);
 			this.groupBox4.Name = "groupBox4";
-			this.groupBox4.Size = new System.Drawing.Size(207, 266);
+			this.groupBox4.Size = new System.Drawing.Size(207, 301);
 			this.groupBox4.TabIndex = 13;
 			this.groupBox4.TabStop = false;
-			this.groupBox4.Text = "Weigher 4";
+			this.groupBox4.Text = "Weigher 4 - UREA";
+			// 
+			// alarm4
+			// 
+			this.alarm4.Checked = true;
+			this.alarm4.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm4.Location = new System.Drawing.Point(138, 23);
+			this.alarm4.Name = "alarm4";
+			this.alarm4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm4.Size = new System.Drawing.Size(63, 24);
+			this.alarm4.TabIndex = 15;
+			this.alarm4.Text = "alarm";
+			this.alarm4.UseVisualStyleBackColor = true;
 			// 
 			// f4
 			// 
@@ -763,6 +834,7 @@ namespace bcl2
 			// 
 			// groupBox5
 			// 
+			this.groupBox5.Controls.Add(this.alarm5);
 			this.groupBox5.Controls.Add(this.f5);
 			this.groupBox5.Controls.Add(this.ratio5);
 			this.groupBox5.Controls.Add(this.checkBox5);
@@ -777,10 +849,23 @@ namespace bcl2
 			this.groupBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox5.Location = new System.Drawing.Point(873, 176);
 			this.groupBox5.Name = "groupBox5";
-			this.groupBox5.Size = new System.Drawing.Size(207, 266);
+			this.groupBox5.Size = new System.Drawing.Size(207, 301);
 			this.groupBox5.TabIndex = 12;
 			this.groupBox5.TabStop = false;
-			this.groupBox5.Text = "Weigher 5";
+			this.groupBox5.Text = "Weigher 5 - MOP";
+			// 
+			// alarm5
+			// 
+			this.alarm5.Checked = true;
+			this.alarm5.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm5.Location = new System.Drawing.Point(138, 23);
+			this.alarm5.Name = "alarm5";
+			this.alarm5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm5.Size = new System.Drawing.Size(63, 24);
+			this.alarm5.TabIndex = 16;
+			this.alarm5.Text = "alarm";
+			this.alarm5.UseVisualStyleBackColor = true;
 			// 
 			// f5
 			// 
@@ -880,6 +965,7 @@ namespace bcl2
 			// 
 			// groupBox6
 			// 
+			this.groupBox6.Controls.Add(this.alarm6);
 			this.groupBox6.Controls.Add(this.f6);
 			this.groupBox6.Controls.Add(this.ratio6);
 			this.groupBox6.Controls.Add(this.checkBox6);
@@ -894,10 +980,23 @@ namespace bcl2
 			this.groupBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox6.Location = new System.Drawing.Point(1086, 176);
 			this.groupBox6.Name = "groupBox6";
-			this.groupBox6.Size = new System.Drawing.Size(207, 266);
+			this.groupBox6.Size = new System.Drawing.Size(207, 301);
 			this.groupBox6.TabIndex = 13;
 			this.groupBox6.TabStop = false;
-			this.groupBox6.Text = "Weigher 6";
+			this.groupBox6.Text = "Weigher 6 - Clay";
+			// 
+			// alarm6
+			// 
+			this.alarm6.Checked = true;
+			this.alarm6.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm6.Location = new System.Drawing.Point(138, 23);
+			this.alarm6.Name = "alarm6";
+			this.alarm6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm6.Size = new System.Drawing.Size(63, 24);
+			this.alarm6.TabIndex = 15;
+			this.alarm6.Text = "alarm";
+			this.alarm6.UseVisualStyleBackColor = true;
 			// 
 			// f6
 			// 
@@ -997,6 +1096,7 @@ namespace bcl2
 			// 
 			// groupBox7
 			// 
+			this.groupBox7.Controls.Add(this.alarm7);
 			this.groupBox7.Controls.Add(this.f7);
 			this.groupBox7.Controls.Add(this.ratio7);
 			this.groupBox7.Controls.Add(this.checkBox7);
@@ -1011,10 +1111,23 @@ namespace bcl2
 			this.groupBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.groupBox7.Location = new System.Drawing.Point(1299, 176);
 			this.groupBox7.Name = "groupBox7";
-			this.groupBox7.Size = new System.Drawing.Size(207, 266);
+			this.groupBox7.Size = new System.Drawing.Size(207, 301);
 			this.groupBox7.TabIndex = 14;
 			this.groupBox7.TabStop = false;
-			this.groupBox7.Text = "Weigher 7";
+			this.groupBox7.Text = "Weigher 7 - MgO";
+			// 
+			// alarm7
+			// 
+			this.alarm7.Checked = true;
+			this.alarm7.CheckState = System.Windows.Forms.CheckState.Checked;
+			this.alarm7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.alarm7.Location = new System.Drawing.Point(138, 23);
+			this.alarm7.Name = "alarm7";
+			this.alarm7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+			this.alarm7.Size = new System.Drawing.Size(63, 24);
+			this.alarm7.TabIndex = 25;
+			this.alarm7.Text = "alarm";
+			this.alarm7.UseVisualStyleBackColor = true;
 			// 
 			// f7
 			// 
@@ -1454,7 +1567,7 @@ namespace bcl2
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-			this.ClientSize = new System.Drawing.Size(1522, 446);
+			this.ClientSize = new System.Drawing.Size(1522, 516);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.total_ratio);
 			this.Controls.Add(this.actual_flow);

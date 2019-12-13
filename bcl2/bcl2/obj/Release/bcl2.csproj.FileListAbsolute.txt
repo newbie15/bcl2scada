@@ -6,3 +6,11 @@ C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Release\
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Release\bcl2.csproj.GenerateResource.Cache
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Release\bcl2.exe
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Release\bcl2.parameter.resources
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Release\bcl2.exe.config
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Release\bcl2.exe
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Release\Sharp7Library.dll
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Release\bcl2.csprojResolveAssemblyReference.cache
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Release\bcl2.MainForm.resources
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Release\bcl2.parameter.resources
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Release\bcl2.csproj.GenerateResource.Cache
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Release\bcl2.exe

@@ -1,3 +1,6 @@
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\bin\Release\Sharp7Library.dll
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\obj\Release\Sharp7Library.csprojResolveAssemblyReference.cache
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\Sharp7Library\obj\Release\Sharp7Library.dll
+C:\Python27\bcl2scada\bcl2\Sharp7Library\bin\Release\Sharp7Library.dll
+C:\Python27\bcl2scada\bcl2\Sharp7Library\obj\Release\Sharp7Library.csprojResolveAssemblyReference.cache
+C:\Python27\bcl2scada\bcl2\Sharp7Library\obj\Release\Sharp7Library.dll

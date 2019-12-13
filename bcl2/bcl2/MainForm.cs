@@ -322,13 +322,13 @@ namespace bcl2
 			double c6 = Convert.ToDouble(af6.Text) / Convert.ToDouble(sf6.Text);
 			double c7 = Convert.ToDouble(af7.Text) / Convert.ToDouble(sf7.Text);
 			int err = 0;
-			if(c1>1.05 || c1<0.95) { groupBox1.BackColor = Color.Red; err++;} else { groupBox1.BackColor = Color.Green;}
-			if(c2>1.05 || c2<0.95) { groupBox2.BackColor = Color.Red; err++;} else { groupBox2.BackColor = Color.Green;}
-			if(c3>1.05 || c3<0.95) { groupBox3.BackColor = Color.Red; err++;} else { groupBox3.BackColor = Color.Green;}
-			if(c4>1.05 || c4<0.95) { groupBox4.BackColor = Color.Red; err++;} else { groupBox4.BackColor = Color.Green;}
-			if(c5>1.05 || c5<0.95) { groupBox5.BackColor = Color.Red; err++;} else { groupBox5.BackColor = Color.Green;}
-			if(c6>1.05 || c6<0.95) { groupBox6.BackColor = Color.Red; err++;} else { groupBox6.BackColor = Color.Green;}
-			if(c7>1.05 || c7<0.95) { groupBox7.BackColor = Color.Red; err++;} else { groupBox7.BackColor = Color.Green;}
+			if(c1>1.05 || c1<0.95) { groupBox1.BackColor = Color.Red; if(alarm1.Checked){ err++; }} else { groupBox1.BackColor = Color.Green;}
+			if(c2>1.05 || c2<0.95) { groupBox2.BackColor = Color.Red; if(alarm2.Checked){ err++; }} else { groupBox2.BackColor = Color.Green;}
+			if(c3>1.05 || c3<0.95) { groupBox3.BackColor = Color.Red; if(alarm3.Checked){ err++; }} else { groupBox3.BackColor = Color.Green;}
+			if(c4>1.05 || c4<0.95) { groupBox4.BackColor = Color.Red; if(alarm4.Checked){ err++; }} else { groupBox4.BackColor = Color.Green;}
+			if(c5>1.05 || c5<0.95) { groupBox5.BackColor = Color.Red; if(alarm5.Checked){ err++; }} else { groupBox5.BackColor = Color.Green;}
+			if(c6>1.05 || c6<0.95) { groupBox6.BackColor = Color.Red; if(alarm6.Checked){ err++; }} else { groupBox6.BackColor = Color.Green;}
+			if(c7>1.05 || c7<0.95) { groupBox7.BackColor = Color.Red; if(alarm7.Checked){ err++; }} else { groupBox7.BackColor = Color.Green;}
 			
 			if(err!=0){
 				warning_sound();
@@ -425,6 +425,10 @@ namespace bcl2
 		void warning_sound(){
 			System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"C:\\Python27\\python-ku\\sound.wav");
 			player.Play();	
+		}
+		void GroupBox1Enter(object sender, EventArgs e)
+		{
+	
 		}
 
 

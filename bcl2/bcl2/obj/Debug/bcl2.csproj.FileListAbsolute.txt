@@ -8,3 +8,14 @@ C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bc
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\obj\Debug\bcl2.pdb
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\Sharp7Library.dll
 C:\Users\BCL2-PBR-SCADA01\Documents\SharpDevelop Projects\bcl2\bcl2\bin\Debug\Sharp7Library.pdb
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Debug\bcl2.exe.config
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Debug\bcl2.exe
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Debug\bcl2.pdb
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Debug\Sharp7Library.dll
+C:\Python27\bcl2scada\bcl2\bcl2\bin\Debug\Sharp7Library.pdb
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Debug\bcl2.csprojResolveAssemblyReference.cache
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Debug\bcl2.MainForm.resources
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Debug\bcl2.parameter.resources
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Debug\bcl2.csproj.GenerateResource.Cache
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Debug\bcl2.exe
+C:\Python27\bcl2scada\bcl2\bcl2\obj\Debug\bcl2.pdb
