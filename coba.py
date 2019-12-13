@@ -155,9 +155,12 @@ def main():
 
     weight8 = ReadMemory(plc,116,0,S7WLReal)
 
+    rate = ReadMemory(plc,334,0,S7WLReal)
+    ratex = ReadMemory(plc,148,0,S7WLReal)
 
 
-    print round(weight1,2),round(ratio1,2),round(sf1,2),round(af1,2),round(bs1,2),round(inv1,1),":",round(weight2,2),round(ratio2,2),round(sf2,2),round(af2,2),round(bs2,2),round(inv2,1),":",round(weight3,2),round(ratio3,2),round(sf3,2),round(af3,2),round(bs3,2),round(inv3,1),":",round(weight4,2),round(ratio4,2),round(sf4,2),round(af4,2),round(bs4,2),round(inv4,1),":",round(weight5,2),round(ratio5,2),round(sf5,2),round(af5,2),round(bs5,2),round(inv5,1),":",round(weight6,2),round(ratio6,2),round(sf6,2),round(af6,2),round(bs6,2),round(inv6,1),":",round(weight7,2),round(ratio7,2),round(sf7,2),round(af7,2),round(bs7,2),round(inv7,1)
+
+    print round(weight1,2),round(ratio1,2),round(sf1,2),round(af1,2),round(bs1,2),round(inv1,1),":",round(weight2,2),round(ratio2,2),round(sf2,2),round(af2,2),round(bs2,2),round(inv2,1),":",round(weight3,2),round(ratio3,2),round(sf3,2),round(af3,2),round(bs3,2),round(inv3,1),":",round(weight4,2),round(ratio4,2),round(sf4,2),round(af4,2),round(bs4,2),round(inv4,1),":",round(weight5,2),round(ratio5,2),round(sf5,2),round(af5,2),round(bs5,2),round(inv5,1),":",round(weight6,2),round(ratio6,2),round(sf6,2),round(af6,2),round(bs6,2),round(inv6,1),":",round(weight7,2),round(ratio7,2),round(sf7,2),round(af7,2),round(bs7,2),round(inv7,1),":",round(rate,2),round(ratex,2)
 
 
 
