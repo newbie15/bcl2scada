@@ -141,6 +141,8 @@ namespace bcl2
 		private System.Windows.Forms.CheckBox alarm5;
 		private System.Windows.Forms.CheckBox alarm6;
 		private System.Windows.Forms.CheckBox alarm7;
+		private System.IO.Ports.SerialPort serialPort1;
+		private System.Windows.Forms.Button button2;
 		
 		/// <summary>
 		/// Disposes resources used by the form.
@@ -291,6 +293,8 @@ namespace bcl2
 			this.total_ratio = new System.Windows.Forms.TextBox();
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.button1 = new System.Windows.Forms.Button();
+			this.serialPort1 = new System.IO.Ports.SerialPort(this.components);
+			this.button2 = new System.Windows.Forms.Button();
 			this.groupBox1.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			this.groupBox3.SuspendLayout();
@@ -1562,12 +1566,28 @@ namespace bcl2
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
+			// serialPort1
+			// 
+			this.serialPort1.PortName = "COM5";
+			// 
+			// button2
+			// 
+			this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.button2.Location = new System.Drawing.Point(1086, 113);
+			this.button2.Name = "button2";
+			this.button2.Size = new System.Drawing.Size(207, 52);
+			this.button2.TabIndex = 25;
+			this.button2.Text = "Relaunch App";
+			this.button2.UseVisualStyleBackColor = true;
+			this.button2.Click += new System.EventHandler(this.Button2Click);
+			// 
 			// MainForm
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.SystemColors.ButtonShadow;
 			this.ClientSize = new System.Drawing.Size(1522, 516);
+			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.total_ratio);
 			this.Controls.Add(this.actual_flow);
