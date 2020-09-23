@@ -22,3 +22,12 @@ maka beli board arduino mega yang baru
 
 coba jalankan kembali program scada, pastikan arduino masuk ke port COM5
 jika tidak rubah setting port ke COM5 caranya : https://anagramus.wordpress.com/2010/05/06/cara-merubah-com/
+
+note :
+alamat ip plc 192.168.0.180 netmask 255.255.255.0
+alamat ip komputer dell : 192.168.0.222 netmask 255.255.255.0
+alamat ip komputer infinity : 192.168.0.111 netmask 255.255.255.0
+intinya komputer bebas mau pakai alamat berapa saja. yang penting masih satu jaringan dengan alamat ip PLC 192.168.0.*
+
+untuk bisa mengakses internet maka setting 192.168.0.* dari komputer ditaruh di setting additional. bukan setting utama
+sehingga komputer punya 2 ip, 1 ip untuk akses internet 1 ip untuk akses plc, kalau bingung googling ya
